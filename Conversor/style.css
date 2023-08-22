@@ -1,7 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #696969;
+}
+
+main {
+    width: 375px;
+    height: 650px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    margin: 20px auto;
+    padding: 40px 24px 23px;
+}
+
+label {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    color: #777777;
+}
+
+select,input {
+    color: #555555;
+    appearance: none;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    height: 48px;
+    width: 100%;
+    padding-left: 16px;
+    margin-bottom: 12px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    color: #FFFF;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background: #772FD3;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+.section-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6%;
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+}
+
+.arrow{
+    margin: 12px 0;
+}
+
+.input-value{
+    font-size: 15px;
+    color: #777777;
+}
+
+.input-result{
+    font-size: 18px;
+    font-weight: 700;
 }
