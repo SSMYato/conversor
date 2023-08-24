@@ -75,12 +75,12 @@ button:active{
     margin: 12px 0;
 }
 
-.input-value{
+.currency{
     font-size: 15px;
     color: #777777;
 }
 
-.input-result{
+.currency-value, .currency-value-to-convert{
     font-size: 18px;
     font-weight: 700;
 }
