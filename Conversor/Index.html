@@ -1,52 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>DevClub - Conversor</title>
 </head>
+
 <body>
     <main>
         <label>
             Converter de:
-            <select class="currency-select" >
+            <select class="first-select">
                 <option value="real">
                     R$ - Real Brasileiro
                 </option>
-
-                <option value="dolar" >
+                <option value="dolar">
                     U$ - Dólar Americano
-                </option>
-
-                <option value="euro">
-                    €$ - Euro
-                </option>
-
-                <option value="libra">
-                    £$ - Libra 
                 </option>
             </select>
         </label>
 
         <label>
             Converter para:
-            <select class="second-currencySelect">
-                 <option value="second-dolar">
+            <select class="second-select">
+                <option value="dolar">
                     U$ - Dólar Americano
                 </option>
-                
-                <option value="second-real">
-                    R$ - Real Brasileiro
+
+                <option value="libra">
+                    £$ - Libra Esterlina
                 </option>
 
-                <option value="second-euro">
+                <option value="euro">
                     €$ - Euro
                 </option>
 
-                <option value="second-libra">
-                    £$ - Libra 
-                </option>
             </select>
         </label>
         <label>
@@ -56,17 +46,18 @@
         <button class="convert-button">Converter</button>
         <section>
             <div class="section-content">
-                <img src="./assets/real.png" alt="first-value-img">
-                <p class="currency">Real</p>
-                <p class="currency-value-to-convert">R$0,00</p>
-        
+                <img class="first-currency-img" src="./assets/real.png" alt="first-value-img">
+                <p class="first-currency-name">Real</p>
+                <p class="first-currency-value">R$0,00</p>
+
                 <img class="arrow" src="./assets/arrow.png" alt="arrow">
-                <img src="./assets/dolar.png" alt="second-value-img">
-                <p class="currency">Dólar</p>
-                <p class="currency-value">U$0,00</p>
+                <img class="second-currency-img" src="./assets/dolar.png" alt="second-value-img">
+                <p class="second-currency-name">Dólar Americano</p>
+                <p class="second-currency-value">U$0,00</p>
             </div>
         </section>
     </main>
-<script src="./script.js"></script>
+    <script src="./script.js"></script>
 </body>
+
 </html>

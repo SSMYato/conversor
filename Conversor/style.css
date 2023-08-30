@@ -80,7 +80,7 @@ button:active{
     color: #777777;
 }
 
-.currency-value, .currency-value-to-convert{
+.first-currency-name, .first-currency-value, .second-currency-name, .second-currency-value{
     font-size: 18px;
     font-weight: 700;
 }
