@@ -6,6 +6,7 @@ const secondCurrencyName = document.querySelector('.second-currency-name')
 const secondCurrencyValue = document.querySelector('.second-currency-value')
 const firstImg = document.querySelector('.first-currency-img')
 const secondImg = document.querySelector('.second-currency-img')
+const secondSelect = document.querySelector('.second-select')
 
 function convertValues() {
     const dolarToday = 4.85
@@ -46,5 +47,5 @@ function convertValues() {
 
     }
 }
-
+secondSelect.addEventListener('change', convertValues)
 convertButton.addEventListener('click', convertValues)
